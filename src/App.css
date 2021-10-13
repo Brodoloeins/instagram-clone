@@ -237,3 +237,19 @@ body{
   font-size: 14px;
   font-weight: 700;
 }
+
+.comentar{
+  border-radius: 15px;
+}
+
+.formCriarConta input{
+  border-radius: 8px;
+}
+
+.formUpload input{
+  border-radius: 8px;
+}
+
+.form-comment input[type="submit"]{
+  border-radius: 8px;
+}

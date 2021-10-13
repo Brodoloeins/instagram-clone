@@ -51,10 +51,10 @@ export default function Post(props){
       
       {
         (props.user)?
-        <form onSubmit={(e)=>comentar(props.id,e)}>
-          <textarea id={"comentario-"+ props.id} placeholder="Digite o seu comentário..."></textarea>
+        <form className ="form-comment" onSubmit={(e)=>comentar(props.id,e)}>
+          <textarea className="comentar" id={"comentario-"+ props.id} placeholder="Digite o seu comentário..."></textarea>
           <input type="submit" value="Comentar" />
-       </form>
+        </form>
        :
        <div></div>
       }
